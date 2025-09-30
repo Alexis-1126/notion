@@ -91,6 +91,18 @@ body {
   color: #362a2b;
 }
 
+  .slide.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: #e5ebf3;
+  font-size: 1.1rem;
+}
+
 @media (min-width: 640px) and (min-height: 640px) {
   .slide .content {
     bottom: 70px;
@@ -114,10 +126,26 @@ body {
 <body>
   <!-- partial:index.partial.html -->
   <div class="slider">
-    <div class="slide current"></div>
-    <div class="slide"></div>
-    <div class="slide"></div>
-    <div class="slide"></div>
+    <div class="slide current">
+      <div class="caption">
+      <p>MIT Motorsports MY23 Race Car</p>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="caption">
+      <p>Hydrogen Engine</p>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="caption">
+      <p>MY23 400 V Battery</p>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="caption">
+      <p>Integrated HRU & Hydrogen Engine Design</p>
+      </div>
+    </div>
 
   </div>
   <div class="buttons">
